@@ -1,0 +1,13 @@
+name = input("What is your name: ")
+print("Hello, " + name)
+age = int(input("How old are you {}? ".format(name)))
+
+year = 100 - age
+
+message = "Hey {}, you're {} years old now. So you will be 100 years old in {} years!!".format(name, age, year)
+print(message)
+
+number = int(input("Okay, {}. Give me a number: ".format(name)))
+
+message += "\n"
+print(message * number)
